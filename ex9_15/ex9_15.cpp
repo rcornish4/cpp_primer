@@ -14,7 +14,7 @@ int main( int argc, char** argv ) {
   std::vector<int> vec3 = {1, 3, 5, 7, 9, 11};
   std::vector<int> vec4 = {1, 3, 5, 7, 9, 11};
 
-  std::cout << "vec1 < vec2: " <<  (vec1 < vec2) ? "true" : "false";
+  std::cout << "vec1 < vec2: " <<  (vec1 < vec2 ? "true" : "false");
   std::cout << std::endl;
   std::cout << "vec3 == vec4: " << (vec3 == vec4) ? "true" : "false";
   std::cout << std::endl;
